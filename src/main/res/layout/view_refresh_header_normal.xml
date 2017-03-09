@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bear.customerview.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content"
+                                                   android:gravity="center"
+                                                   android:orientation="vertical">
+
+    <com.bear.customerview.autolayout.AutoFrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="10px">
+
+        <ImageView
+            android:background="@drawable/load_0"
+            android:id="@+id/iv_normal_refresh_header_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/iv_normal_refresh_header_chrysanthemum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@anim/animation"
+            android:visibility="visible"/>
+    </com.bear.customerview.autolayout.AutoFrameLayout>
+
+    <TextView
+        android:id="@+id/tv_normal_refresh_header_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5px"
+        android:layout_marginTop="5px"
+        android:text="下拉刷新"
+        android:textColor="#777"
+        android:textSize="12sp"/>
+</com.bear.customerview.autolayout.AutoLinearLayout>

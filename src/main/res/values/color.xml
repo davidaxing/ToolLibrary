@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="no_color">#00FFFFFF</color>
+    <color name="base_normal">#22ffb5</color>
+    <color name="deep_transparent">#b0000000</color>
+    <color name="price_text_black">#232a2e</color>
+
+    <color name="google_blue">#4285F4</color>
+    <color name="google_red">#EA4335</color>
+    <color name="google_green">#34A853</color>
+    <color name="google_yellow">#FBBC05</color>
+    <!--CarouseButton-->
+    <color name="gray_4">#eaeaea</color>
+
+    <!--start com.bear.customerview.rollerpicker包名下以下所用到的 滚轮控件-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="bg">#cccccc</color>
+    <!--city pick-->
+    <color name="province_line_border">#C7C7C7</color>
+    <!--end com.bear.customerview.rollerpicker包名下以下所用到的 滚轮控件-->
+</resources>
